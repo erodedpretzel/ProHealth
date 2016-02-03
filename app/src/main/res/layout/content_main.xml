@@ -18,13 +18,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         grid:columnCount="3"
-        grid:rowCount="3"
+        grid:rowCount="6"
         grid:orientation="horizontal"
         grid:alignmentMode="alignBounds"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="65dp"
         android:id="@+id/homeGrid">
 
         <ImageView
@@ -51,6 +48,36 @@
             grid:layout_gravity="center"
             android:src="@drawable/locations2"
             />
+        <TextView
+            android:id="@+id/text_contact_us"
+            android:text="@string/icon_contact_us"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/text_providers"
+            android:text="@string/icon_providers"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/text_locations"
+            android:text="@string/icon_locations"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
         <ImageView
             android:layout_width="@dimen/icon_width"
             android:layout_height="@dimen/icon_height"
@@ -74,6 +101,36 @@
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
             android:src="@drawable/programs2"
+            />
+        <TextView
+            android:id="@+id/text_forms"
+            android:text="@string/icon_forms"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/text_patient_portal"
+            android:text="@string/icon_patient_portal"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/text_programs"
+            android:text="@string/icon_programs"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -99,110 +156,37 @@
             grid:layout_gravity="center"
             android:src="@drawable/facebook2"
             />
+        <TextView
+            android:id="@+id/text_bustracker"
+            android:text="@string/icon_bustracker"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/text_job_openings"
+            android:text="@string/icon_job_openings"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/text_facebook"
+            android:text="@string/icon_facebook"
+            android:textColor='#000000'
+            android:textSize="@dimen/home_icon"
+            grid:layout_columnWeight="1"
+            grid:layout_rowWeight="1"
+            grid:layout_gravity="top"
+            android:gravity="center"
+            />
     </android.support.v7.widget.GridLayout>
-    <android.support.v7.widget.GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        grid:columnCount="3"
-        grid:rowCount="3"
-        grid:orientation="horizontal"
-        android:layout_marginTop="35dp"
-        android:layout_marginLeft="15dp"
-        android:id="@+id/gridLayout">
 
-    <TextView
-        android:id="@+id/text_contact_us"
-        android:text="@string/icon_contact_us"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-    <TextView
-        android:id="@+id/text_providers"
-        android:text="@string/icon_providers"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-    <TextView
-        android:id="@+id/text_locations"
-        android:text="@string/icon_locations"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-
-    <TextView
-        android:id="@+id/text_forms"
-        android:text="@string/icon_forms"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-    <TextView
-        android:id="@+id/text_patient_portal"
-        android:text="@string/icon_patient_portal"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-    <TextView
-        android:id="@+id/text_programs"
-        android:text="@string/icon_programs"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-
-    <TextView
-        android:id="@+id/text_bustracker"
-        android:text="@string/icon_bustracker"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-    <TextView
-        android:id="@+id/text_job_openings"
-        android:text="@string/icon_job_openings"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-    <TextView
-        android:id="@+id/text_facebook"
-        android:text="@string/icon_facebook"
-        android:textColor='#000000'
-        android:textSize="20sp"
-        grid:layout_columnWeight="1"
-        grid:layout_rowWeight="1"
-        grid:layout_gravity="bottom"
-        android:gravity="center"
-        />
-
-    </android.support.v7.widget.GridLayout>
 </RelativeLayout>
 
