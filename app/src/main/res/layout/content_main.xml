@@ -30,7 +30,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/contactus2"
+            android:src="@drawable/contactus"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -38,7 +38,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/providers2"
+            android:src="@drawable/providers"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -46,7 +46,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/locations2"
+            android:src="@drawable/locations"
             />
         <TextView
             android:id="@+id/text_contact_us"
@@ -84,7 +84,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/forms2"
+            android:src="@drawable/forms"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -92,7 +92,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/patientportal2"
+            android:src="@drawable/patientportal"
         />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -100,7 +100,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/programs2"
+            android:src="@drawable/programs"
             />
         <TextView
             android:id="@+id/text_forms"
@@ -138,7 +138,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/bustracker2"
+            android:src="@drawable/bustracker"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -146,7 +146,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/jobs2"
+            android:src="@drawable/jobs"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
@@ -154,7 +154,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/facebook2"
+            android:src="@drawable/facebook"
             />
         <TextView
             android:id="@+id/text_bustracker"
