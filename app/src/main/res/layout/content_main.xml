@@ -30,7 +30,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/contactus_off"
+            android:src="@drawable/call_off"
             android:id="@+id/callButton"
             />
         <ImageView
@@ -69,7 +69,7 @@
             grid:layout_rowWeight="1"
             grid:layout_gravity="top"
             android:gravity="center"
-            android:id="@+id/providerButtonText"
+            android:id="@+id/providersButtonText"
             />
         <TextView
             android:text="@string/icon_locations"
@@ -96,7 +96,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/patientportal_off"
+            android:src="@drawable/portal_off"
             android:id="@+id/portalButton"
         />
         <ImageView
@@ -144,7 +144,7 @@
             grid:layout_columnWeight="1"
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
-            android:src="@drawable/bustracker_off"
+            android:src="@drawable/tracker_off"
             android:id="@+id/trackerButton"
             />
         <ImageView
@@ -154,7 +154,7 @@
             grid:layout_rowWeight="1"
             grid:layout_gravity="center"
             android:src="@drawable/jobs_off"
-            android:id="@+id/jobButton"
+            android:id="@+id/jobsButton"
             />
         <ImageView
             android:layout_width="@dimen/icon_width"
