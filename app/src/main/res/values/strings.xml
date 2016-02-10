@@ -15,4 +15,10 @@
     <string name="icon_facebook">Facebook</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_feedback">Give Us Feedback</string>
+    <string name="call_directions">Select a location to call</string>
+    <string name="call_location_bloom">Bloomingdale</string>
+    <string name="call_location_cay">Cayuga</string>
+    <string name="call_location_clint">Clinton</string>
+    <string name="call_location_craw">Crawfordsville</string>
+    <string name="call_location_terre">Terre Haute</string>
 </resources>

@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.content.Intent;
+import android.app.Dialog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         View callImage = findViewById(R.id.callButton);
         View providersImage = findViewById(R.id.providerButton);
         View locationsImage = findViewById(R.id.locationsButton);
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         View trackerImage = findViewById(R.id.trackerButton);
         View jobsImage = findViewById(R.id.jobsButton);
         View facebookImage = findViewById(R.id.facebookButton);
+
 
         callImage.setOnClickListener(homeListener);
         providersImage.setOnClickListener(homeListener);
@@ -50,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.callButton:
                     ImageView homeButton = (ImageView) findViewById(R.id.callButton);
                     homeButton.setImageResource(R.drawable.call_on);
+                    callPopup();
                     break;
                 case R.id.providerButton:
                     ImageView providerButton = (ImageView) findViewById(R.id.providerButton);
@@ -96,6 +100,12 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
+
+    private boolean callPopup(){
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.call_dialog);
+        return true;
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
